@@ -6,7 +6,7 @@ import { projects } from "@/Data/project";
 import { skillsData } from "@/Data/skills";
 import ProjectCard from "@/Components/ProjectCard";
 import { Mail, Github, Twitter } from "lucide-react";
-import { FaDiscord, FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn } from "react-icons/fa";
 import { useTheme } from "@/contexts/ThemeContext";
 import ThemeToggle from "@/Components/ThemeToggle";
 

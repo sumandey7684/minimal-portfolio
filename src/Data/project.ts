@@ -9,6 +9,14 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "1",
+    name: "Code Canvas",
+    description:
+      "Code Canvas is a Next.js app that lets you write, preview, and style code snippets in real time with syntax highlighting, customizable themes, fonts, and gradient backgrounds.",
+    live: "https://code-canvas-suman.vercel.app/",
+    sourceCode: "https://github.com/sumandey7684/CodeCanvas",
+  },
+  {
+    id: "2",
     name: "Tarang",
     description:
       "A simple tool for generating customizable mesh gradients with text/image overlays, export options, and wallpaper/asset use.",
@@ -16,7 +24,7 @@ export const projects: Project[] = [
     sourceCode: "https://github.com/sumandey7684/wallpaper-app",
   },
   {
-    id: "2",
+    id: "3",
     name: "GyaanSaar-AI",
     description:
       "An OpenAI GPT-4 powered Next.js tool that summarizes articles from URLs with a sleek, animated UI.",

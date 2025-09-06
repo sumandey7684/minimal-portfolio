@@ -9,6 +9,14 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "1",
+    name: "Stackfolio",
+    description:
+      "Stackfolio is a developer portfolio showcase platform where users can explore, share, and get inspiration from different portfolio designs and tech stacks.",
+    live: "https://stackfolio-suman.vercel.app/",
+    sourceCode: "https://github.com/sumandey7684/Stackfolio",
+  },
+  {
+    id: "2",
     name: "Code Canvas",
     description:
       "Code Canvas is a Next.js app that lets you write, preview, and style code snippets in real time with syntax highlighting, customizable themes, fonts, and gradient backgrounds.",
@@ -16,7 +24,7 @@ export const projects: Project[] = [
     sourceCode: "https://github.com/sumandey7684/CodeCanvas",
   },
   {
-    id: "2",
+    id: "3",
     name: "Tarang",
     description:
       "A simple tool for generating customizable mesh gradients with text/image overlays, export options, and wallpaper/asset use.",
@@ -24,7 +32,7 @@ export const projects: Project[] = [
     sourceCode: "https://github.com/sumandey7684/wallpaper-app",
   },
   {
-    id: "3",
+    id: "4",
     name: "GyaanSaar-AI",
     description:
       "An OpenAI GPT-4 powered Next.js tool that summarizes articles from URLs with a sleek, animated UI.",
@@ -32,7 +40,7 @@ export const projects: Project[] = [
     sourceCode: "https://github.com/sumandey7684/GyaanSaar-AI",
   },
   {
-    id: "4",
+    id: "5",
     name: "SumanFolio-v3",
     description:
       "Personal portfolio showcasing projects, skills, and experience with a modern design built using Next.js and Tailwind CSS.",
@@ -40,7 +48,7 @@ export const projects: Project[] = [
     sourceCode: "https://github.com/sumandey7684/SumanFolio-v3",
   },
   {
-    id: "5",
+    id: "6",
     name: "Brainwave",
     description:
       "A modern React + Tailwind website showcasing sleek UI/UX design, smooth animations, and inspirational user experience.",
@@ -48,7 +56,7 @@ export const projects: Project[] = [
     sourceCode: "https://github.com/sumandey7684/Brainwave",
   },
   {
-    id: "6",
+    id: "7",
     name: "Metaversus",
     description:
       "A Next.js 13 website built with Tailwind CSS and Framer Motion, featuring smooth animations and a full build–deploy workflow.",

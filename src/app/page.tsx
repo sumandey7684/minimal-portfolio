@@ -85,6 +85,7 @@ export default function Home() {
             }`}
           >
             [ break → understand → build ]
+            '21 | 1% better everyday
           </div>
           <div
             className={`space-y-4 leading-relaxed ${
